@@ -1,0 +1,146 @@
+.bodyInfoFacc {
+    background-color: rgb(247, 236, 224);
+}
+
+.h3InfoFacc{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.404);
+    border: solid 0.5px;
+    color: white;
+}
+
+.paladin {
+    background-color: rgb(245, 140, 186, 0.35);
+}
+
+.cazador {
+    background-color: rgb(171, 212, 115, 0.35);
+}
+
+.druida {
+    background-color: rgb(255, 125, 010, 0.35);
+}
+
+.chaman {
+    background-color: 	rgb(0,	112, 222, 0.35);
+}
+
+.guerrero {
+    background-color: 	rgb(199,156, 110, 0.35);
+}
+
+.monje {
+    background-color: 	rgb(0,	255, 150, 0.35);
+}
+
+.brujo {
+    background-color: 	rgb(148, 140, 201, 0.35);
+}
+
+.mago {
+    background-color: 	rgb(105, 204, 240, 0.35);
+}
+
+.picaro {
+    background-color: 	rgb(255, 245, 105, 0.35);
+}
+
+.caballeroDeLaMuerte {
+    background-color: 	rgb(196, 30, 59, 0.35);
+}
+
+.sacerdote {
+    background-color: 	rgb(255, 255, 255, 0.35);
+}
+
+.cazadorDemonios {
+    background-color: 	rgb(163, 48, 201, 0.5);
+}
+
+.orcos {
+    background-image: url("./Imgs/orco.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5vh;
+    padding-bottom: 15vh;
+}
+
+.tauren {
+    background-image: url("./Imgs/tauren.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+}
+
+.humanos {
+    background-image: url("./Imgs/humano.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+}
+
+.enanos {
+    background-image: url("./Imgs/enano.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+}
+
+.noMuertos {
+    background-image: url("./Imgs/noMuerto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+}
+
+.gnomos {
+    background-image: url("./Imgs/gnomo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+}
+
+.trols {
+    background-image: url("./Imgs/troll.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+
+}
+
+.elfosDeLaNoche {
+    background-image: url("./Imgs/elfoDeLaNoche.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    position: absolute;
+    width: 49.2vw;
+    height: 27vh;
+}
+
+.elfosDeSangre {
+    background-image: url("./Imgs/elfoDeSangre.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+}
+
+.draenei {
+    background-image: url("./Imgs/draenei.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+}
+
+li {
+    list-style: none;
+}
