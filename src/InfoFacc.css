@@ -1,5 +1,5 @@
 .bodyInfoFacc {
-    background-color: rgb(247, 236, 224);
+    background-color: rgba(0, 0, 0, 0.616);
 }
 
 .h3InfoFacc{
@@ -13,48 +13,92 @@
     background-color: rgb(245, 140, 186, 0.35);
 }
 
+.paladin:hover{
+    background-color: rgb(245, 140, 186, 1);
+}
+
 .cazador {
     background-color: rgb(171, 212, 115, 0.35);
+}
+
+.cazador:hover {
+    background-color: rgb(171, 212, 115, 1);
 }
 
 .druida {
     background-color: rgb(255, 125, 010, 0.35);
 }
+.druida:hover {
+    background-color: rgb(255, 125, 010, 1);
+}
 
 .chaman {
     background-color: 	rgb(0,	112, 222, 0.35);
+}
+.chaman:hover {
+    background-color: 	rgb(0,	112, 222, 1);
 }
 
 .guerrero {
     background-color: 	rgb(199,156, 110, 0.35);
 }
 
+.guerrero:hover {
+    background-color: 	rgb(199,156, 110, 1);
+}
+
 .monje {
     background-color: 	rgb(0,	255, 150, 0.35);
+}
+
+.monje:hover {
+    background-color: 	rgb(0, 255, 149);
 }
 
 .brujo {
     background-color: 	rgb(148, 140, 201, 0.35);
 }
 
+.brujo:hover {
+    background-color: 	rgb(148, 140, 201);
+}
+
 .mago {
     background-color: 	rgb(105, 204, 240, 0.35);
+}
+
+.mago:hover {
+    background-color: 	rgb(105, 204, 240);
 }
 
 .picaro {
     background-color: 	rgb(255, 245, 105, 0.35);
 }
 
+.picaro:hover {
+    background-color: 	rgb(255, 245, 105);
+}
+
 .caballeroDeLaMuerte {
     background-color: 	rgb(196, 30, 59, 0.35);
+}
+
+.caballeroDeLaMuerte:hover {
+    background-color: 	rgb(196, 30, 59);
 }
 
 .sacerdote {
     background-color: 	rgb(255, 255, 255, 0.35);
 }
+.sacerdote:hover {
+    background-color: 	rgb(255, 255, 255);
+}
 
 .cazadorDemonios {
     background-color: 	rgb(163, 48, 201, 0.5);
+}
+.cazadorDemonios:hover {
+    background-color: 	rgb(163, 48, 201);
 }
 
 .orcos {
@@ -64,6 +108,7 @@
     height: 5vh;
     padding-bottom: 15vh;
 }
+
 
 .tauren {
     background-image: url("./Imgs/tauren.jpg");
@@ -97,6 +142,20 @@
     padding-bottom: 15vh;
 }
 
+.orcos:hover,
+.tauren:hover,
+.elfosDeLaNoche:hover,
+.elfosDeSangre:hover,
+.draenei:hover,
+.noMuertos:hover,
+.humanos:hover,
+.gnomos:hover ,
+.trols:hover,
+.enanos:hover  {
+    transform: scale(1.1);
+    transition:  0.5s;
+}
+
 .gnomos {
     background-image: url("./Imgs/gnomo.jpg");
     background-repeat: no-repeat;
@@ -120,9 +179,9 @@
     background-size: cover;
     padding-top: 5vh;
     padding-bottom: 10vh;
-    position: absolute;
+    /* position: absolute;
     width: 49.2vw;
-    height: 27vh;
+    height: 27vh; */
 }
 
 .elfosDeSangre {
@@ -143,4 +202,13 @@
 
 li {
     list-style: none;
+}
+
+ul {
+    text-align: center;
+}
+
+th{
+    text-shadow: 0.4em 0.4em 0.8em rgba(0, 0, 0, 1);
+    font-size: 2.5rem;
 }
